@@ -5,16 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87392ba2-c419-4b37-bd8a-3b874c1765bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ .eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/Rectangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ApiMovie/ApiMovie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ApiMovie/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Card/Card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Card/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Movie/Movie.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Movie/Movie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Movie/images/Rectangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Movie/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,22 +58,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/aleks/Documents/MyMovieApp/movie",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/home/aleks/Documents/MyMovieApp/movie/node_modules/prettier",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/aleks/Documents/MyMovieApp/movie/src/components/Movie/images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettier.import.notification.dismissed&quot;: &quot;true&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/home/aleks/Documents/MyMovieApp/movie/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Settings.JavaScript.Linters.JSHint&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Movie/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,7 +93,47 @@
       <option name="presentableId" value="Default" />
       <updated>1696343485360</updated>
       <workItem from="1696343486457" duration="74000" />
-      <workItem from="1696343822738" duration="1527000" />
+      <workItem from="1696343822738" duration="1865000" />
+      <workItem from="1696346895914" duration="293000" />
+      <workItem from="1696403409244" duration="602000" />
+      <workItem from="1696409473932" duration="2248000" />
+      <workItem from="1696413500181" duration="6327000" />
+      <workItem from="1696429895770" duration="3587000" />
+      <workItem from="1696497427240" duration="2245000" />
+      <workItem from="1696581451885" duration="1876000" />
+      <workItem from="1696943065542" duration="3833000" />
+      <workItem from="1696947865841" duration="5058000" />
+      <workItem from="1697007841871" duration="5896000" />
+      <workItem from="1697021126330" duration="3789000" />
+      <workItem from="1697029953820" duration="8046000" />
+      <workItem from="1697098492117" duration="3710000" />
+      <workItem from="1697108769420" duration="1069000" />
+      <workItem from="1697134083091" duration="313000" />
+      <workItem from="1697184401940" duration="4600000" />
+      <workItem from="1697209728731" duration="599000" />
+      <workItem from="1697446996348" duration="8779000" />
+      <workItem from="1697462370061" duration="7471000" />
+      <workItem from="1697530633836" duration="2981000" />
+      <workItem from="1697533661823" duration="4670000" />
+      <workItem from="1697547426497" duration="5032000" />
+      <workItem from="1697625199799" duration="4254000" />
+      <workItem from="1697634778511" duration="1581000" />
+      <workItem from="1697695181103" duration="2397000" />
+      <workItem from="1697699409344" duration="4674000" />
+      <workItem from="1697706784717" duration="4822000" />
+      <workItem from="1697711798259" duration="3285000" />
+      <workItem from="1697721256221" duration="5066000" />
+      <workItem from="1697726368666" duration="15000" />
+      <workItem from="1697726451958" duration="1575000" />
+      <workItem from="1697729935153" duration="625000" />
+      <workItem from="1697782987113" duration="808000" />
+      <workItem from="1697793811407" duration="7655000" />
+      <workItem from="1697807012029" duration="5777000" />
+      <workItem from="1698040405596" duration="6978000" />
+      <workItem from="1698050930445" duration="2577000" />
+      <workItem from="1698053599017" duration="5207000" />
+      <workItem from="1698063888668" duration="4130000" />
+      <workItem from="1698077619496" duration="3043000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,35 @@
+.headerStyle {
+  height: auto;
+  padding-bottom: 10px;
+  display: grid;
+  grid-gap: 10px;
+  justify-items: center;
+  background: none;
+}
+.ant-card .ant-card-head {
+  padding: 0;
+}
+.ant-card .ant-card-head-title {
+  white-space: normal;
+}
+.ant-card-meta-description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -moz-box;
+  display: -webkit-box;
+  line-clamp: 4;
+  box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+.contentStyle {
+  text-align: center;
+  min-height: 120px;
+  line-height: 120px;
+  color: #fff;
+}
+.footerStyle {
+  text-align: center;
+  color: #fff;
+}

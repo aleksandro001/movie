@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87392ba2-c419-4b37-bd8a-3b874c1765bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/CardMovie/CardMovie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CardMovie/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/Rectangle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card/Card.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Movie/Movie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Movie/Movie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Movie/images/Rectangle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +110,7 @@
       <workItem from="1698063888668" duration="4130000" />
       <workItem from="1698077619496" duration="3913000" />
       <workItem from="1698138458872" duration="739000" />
-      <workItem from="1698139222633" duration="7241000" />
+      <workItem from="1698139222633" duration="8239000" />
     </task>
     <servers />
   </component>

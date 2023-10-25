@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87392ba2-c419-4b37-bd8a-3b874c1765bc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/NetworkState/NetworkState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/NetworkState/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ApiMovie/ApiMovie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ApiMovie/ApiMovie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardList/CardList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Movie/Movie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Movie/Movie.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +118,10 @@
       <workItem from="1698077619496" duration="3913000" />
       <workItem from="1698138458872" duration="739000" />
       <workItem from="1698139222633" duration="8239000" />
+      <workItem from="1698152269020" duration="1366000" />
+      <workItem from="1698158126765" duration="6041000" />
+      <workItem from="1698219880781" duration="7519000" />
+      <workItem from="1698237800049" duration="2987000" />
     </task>
     <servers />
   </component>

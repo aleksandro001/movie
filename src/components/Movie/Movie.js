@@ -8,15 +8,26 @@ import CardList from '../CardList';
 export default class Movie extends Component {
   state = {
     movies: [],
+    loading: true,
+    error: false,
   };
   api = new ApiMovie();
+  onError = (err) => {
+    this.setState((state) => ({
+      error: (state.error = true),
+      loading: (state.loading = false),
+    }));
+  };
 
   getResponse = () => {
-    this.api.getPoster.then((response) => {
-      this.setState((state) => ({
-        movies: (state.movies = response),
-      }));
-    });
+    this.api.getPoster
+      .then((response) => {
+        this.setState((state) => ({
+          movies: (state.movies = response),
+          loading: (state.loading = false),
+        }));
+      })
+      .catch(this.onError);
     setTimeout(() => console.log(this.state.movies), 5000);
   };
   componentDidMount() {
@@ -24,11 +35,12 @@ export default class Movie extends Component {
   }
 
   render() {
-    const { movies } = this.state;
+    const { movies, loading, error } = this.state;
     const { Search } = Input;
     const { Content } = Layout;
     const onSearch = (value, _e, info) => console.log(info?.source, value);
     const { Header, Footer } = Layout;
+
     return (
       <Space
         direction="vertical"
@@ -43,7 +55,7 @@ export default class Movie extends Component {
             <Search placeholder="Type to search..." onSearch={onSearch} style={{}} />
           </Header>
           <Content className={'contentStyle'}>
-            <CardList movies={movies} />
+            <CardList movies={movies} loading={loading} error={error} />
           </Content>
           <Footer className={'footerStyle'}>
             <Pagination defaultCurrent={1} total={50} />

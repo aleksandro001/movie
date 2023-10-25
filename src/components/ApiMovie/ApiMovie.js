@@ -15,6 +15,5 @@ export default class ApiMovie extends Component {
     this.options
   )
     .then((response) => response.json())
-    .then((response) => response.results)
-    .catch((err) => console.error(err));
+    .then((response) => response.results);
 }

@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
-import { Button, Image, Progress, Rate, Space, Card } from 'antd';
+import { Image, Rate, Card } from 'antd';
 import moment from 'moment/moment';
 import { formatDistanceToNow } from 'date-fns';
+import ApiMovie from '../ApiMovie';
+import GenreMovies from '../GenreMovies';
+import AssessmentCircle from '../AssessmentCircle';
 
 export default class CardMovie extends Component {
+  api = new ApiMovie();
   trunc(n, useWordBoundary) {
     if (this.length <= n) {
       return this;
@@ -19,9 +23,15 @@ export default class CardMovie extends Component {
     }
     return '';
   }
+
   render() {
     const { movie, testConditionMov } = this.props;
     const { Meta } = Card;
+
+    const onChangeRate = (value) => {
+      this.api.giveRating(movie.id, window.localStorage.getItem('movieDb'), value);
+      // console.log(`value:${value} movie.id:${movie.id} local:${window.localStorage.getItem('movieDb')}`);
+    };
     return (
       <Card
         className="gutter-row"
@@ -48,7 +58,7 @@ export default class CardMovie extends Component {
         />
         <Card
           title={testConditionMov ? `` : `${movie.original_title}`}
-          extra={<Progress size={30} trailColor={'#E9D100'} type="circle" format={(percent) => 6.8} percent={0} />}
+          extra={<AssessmentCircle movieVote={movie.vote_average} />}
           bordered={false}
           bodyStyle={{
             whiteSpace: 'normal',
@@ -68,15 +78,18 @@ export default class CardMovie extends Component {
           <p style={{ fontSize: 12, lineHeight: '22px', color: '#827E7E' }}>
             {testConditionMov ? `` : `${this.getTime(movie.release_date)}`}
           </p>
-          <Space wrap style={{ paddingBottom: '10px' }}>
-            <Button size={'small'}>Action</Button>
-            <Button size={'small'}>Drama</Button>
-          </Space>
+          <GenreMovies genreId={movie.genre_ids} />
           <Meta
             style={{ fontSize: 12, paddingBottom: 10 }}
             description={testConditionMov ? `` : `${this.trunc.apply(movie.overview, [155, true])}`}
           />
-          <Rate style={{ fontSize: 15, paddingBottom: 10 }} allowHalf defaultValue={7} count={10} />
+          <Rate
+            onChange={onChangeRate}
+            style={{ fontSize: 15, paddingBottom: 10 }}
+            allowHalf
+            defaultValue={0}
+            count={10}
+          />
         </Card>
       </Card>
     );

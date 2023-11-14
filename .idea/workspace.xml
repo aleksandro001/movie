@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87392ba2-c419-4b37-bd8a-3b874c1765bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/NetworkState/NetworkState.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/NetworkState/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AssessmentCircle/AssessmentCircle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AssessmentCircle/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GenreMovies/GenreMovies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GenreMovies/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ApiMovie/ApiMovie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ApiMovie/ApiMovie.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CardList/CardList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardMovie/CardMovie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardMovie/CardMovie.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Movie/Movie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Movie/Movie.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,6 +125,39 @@
       <workItem from="1698158126765" duration="6041000" />
       <workItem from="1698219880781" duration="7519000" />
       <workItem from="1698237800049" duration="2987000" />
+      <workItem from="1698323775337" duration="8152000" />
+      <workItem from="1698332856779" duration="2990000" />
+      <workItem from="1698475809032" duration="7567000" />
+      <workItem from="1698489249817" duration="2033000" />
+      <workItem from="1698495169425" duration="7524000" />
+      <workItem from="1698564221966" duration="7492000" />
+      <workItem from="1698656229604" duration="2860000" />
+      <workItem from="1698669170875" duration="4620000" />
+      <workItem from="1698675475143" duration="722000" />
+      <workItem from="1698676269392" duration="319000" />
+      <workItem from="1698678297121" duration="1337000" />
+      <workItem from="1698680030790" duration="2755000" />
+      <workItem from="1698687101932" duration="1791000" />
+      <workItem from="1698738464972" duration="3317000" />
+      <workItem from="1698743566189" duration="1968000" />
+      <workItem from="1698758308839" duration="5117000" />
+      <workItem from="1698765561111" duration="2921000" />
+      <workItem from="1698829237589" duration="6696000" />
+      <workItem from="1698846301548" duration="1517000" />
+      <workItem from="1698847852754" duration="5392000" />
+      <workItem from="1698857895371" duration="1804000" />
+      <workItem from="1698908355243" duration="5459000" />
+      <workItem from="1698922405555" duration="3752000" />
+      <workItem from="1698930958199" duration="4010000" />
+      <workItem from="1698935751855" duration="751000" />
+      <workItem from="1699003583448" duration="745000" />
+      <workItem from="1699006267257" duration="29000" />
+      <workItem from="1699006318672" duration="21000" />
+      <workItem from="1699007169862" duration="18000" />
+      <workItem from="1699008949953" duration="164000" />
+      <workItem from="1699177056262" duration="85000" />
+      <workItem from="1699892948581" duration="902000" />
+      <workItem from="1699946324041" duration="4981000" />
     </task>
     <servers />
   </component>

@@ -24,9 +24,18 @@ export default class CardList extends Component {
     }));
   };
   render() {
-    const { movies, loading, error } = this.props;
+    const { movies, loading, error, moviesIs } = this.props;
     const testConditionMov = movies.length === 0;
     const hasDate = !(loading || error);
+
+    const errorMoviesIs = moviesIs ? (
+      <Alert
+        message="No movies by that name were found"
+        description="You may have entered the movie title in error."
+        type="error"
+        closable
+      />
+    ) : null;
     const errorMessage = error ? (
       <Alert message="Data retrieval Error" description="Something went wrong." type="error" closable />
     ) : null;
@@ -39,6 +48,7 @@ export default class CardList extends Component {
     return (
       <NetworkState>
         <Row justify={'center'} style={{ gap: 15 }}>
+          {errorMoviesIs}
           {ListItems}
           {LoadingSpin}
           {errorMessage}

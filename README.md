@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-[Watch the app](https://movie-o5p3be7wm-alekcs-projects.vercel.app)
+[Watch the app](https://movie-2psmscfk8-alekcs-projects.vercel.app)
 
 ## Available Scripts
 
